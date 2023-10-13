@@ -1,0 +1,16 @@
+name: newwarps
+version: '${version}'
+main: pt.z4.newwarps.Newwarps
+commands:
+  setwarp:
+    description: Sets a new warp
+    usage: /setwarp <name>
+  warps:
+    description: Lists all warps
+    usage: /warps
+  warp:
+    description: Teleports to a warp
+    usage: /warp <name>
+  delwarp:
+    description: Deletes a warp
+    usage: /delwarp <name>
